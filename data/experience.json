@@ -1,0 +1,82 @@
+ "work_experience": [
+    {
+      "id": "qbe_intern",
+      "company": "QBE North America",
+      "title": "Data Science Intern",
+      "location": "Madison, WI",
+      "start_date": "2026-06",
+      "end_date": "2026-08",
+      "tags": [
+        "python",
+        "pandas",
+        "pyspark",
+        "insurance",
+        "risk-modeling",
+        "data-pipelines",
+        "databricks"
+      ],
+      "bullets": [
+        {
+          "text": "Ongoing summer internship on the Data Science Pricing team at QBE's Madison, WI office, applying Pandas and PySpark to analyze pricing data and support refinements to the company's pricing models",
+          "tags": [
+            "pandas",
+            "pyspark",
+            "pricing",
+            "insurance"
+          ]
+        },
+        {
+          "text": "Developing predictive risk-modeling solutions and optimized data pipelines with Python, Pandas, and PySpark, reducing processing time and enhancing risk analysis accuracy",
+          "tags": [
+            "python",
+            "pandas",
+            "pyspark",
+            "risk-modeling",
+            "data-pipelines",
+            "predictive-modeling"
+          ]
+        },
+        {
+          "text": "Utilized agentic coding solutions such as DataBricks' Genie Code to promote productivity in data preparation and analysis",
+          "tags": [
+            "databricks",
+            "genai",
+            "productivity",
+            "data-preparation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bios_intern",
+      "company": "BIOS (Badger Inquiry on Sport)",
+      "title": "Incoming Athletics Research Intern",
+      "location": "Madison, WI",
+      "start_date": "2026-09",
+      "end_date": "2027-05",
+      "status": "incoming",
+      "tags": [
+        "sports-analytics",
+        "statistical-modeling",
+        "research",
+        "collaboration"
+      ],
+      "bullets": [
+        {
+          "text": "Incoming intern selected to support sports performance research using statistical modeling and data analysis",
+          "tags": [
+            "sports-analytics",
+            "statistical-modeling"
+          ]
+        },
+        {
+          "text": "Will support evidence-based decision making for UW coaches and athletes while collaborating with university researchers and athletics staff",
+          "tags": [
+            "sports-analytics",
+            "collaboration",
+            "decision-support"
+          ]
+        }
+      ]
+    }
+  ]
