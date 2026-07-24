@@ -1,3 +1,4 @@
+{
 "projects": [
     {
       "id": "march_madness_model",
@@ -58,3 +59,4 @@
       ]
     }
   ]
+}
