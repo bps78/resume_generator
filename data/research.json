@@ -21,17 +21,10 @@
           ]
         },
         {
-          "text": "Mapped datasets in Python in order to combine data from multiple sources to allow for better informed insights",
+          "text": "Mapped and processed datasets in Python and SQL in order to combine data from multiple sources to allow for better informed insights",
           "tags": [
             "python",
             "data-integration"
-          ]
-        },
-        {
-          "text": "Processed data in SQL to ensure proper formatting and prevent errors during analysis",
-          "tags": [
-            "sql",
-            "data-cleaning"
           ]
         }
       ]
@@ -50,7 +43,7 @@
       ],
       "bullets": [
         {
-          "text": "Analyzed large-scale waste disposal dataset from computer vision–enabled recycling bins to assess sorting accuracy trends and contamination causes with mentorship from Professor Ankur Desai",
+          "text": "Analyzed large-scale waste disposal dataset from computer vision–enabled recycling bins to assess sorting accuracy trends and contamination causes with mentorship from Professor Yash Babar",
           "tags": [
             "data-analysis",
             "computer-vision-data",
