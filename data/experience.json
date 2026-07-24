@@ -18,7 +18,7 @@
        ],
        "bullets": [
          {
-           "text": "Ongoing summer internship on the Data Science Pricing team at QBE's Madison, WI office, applying Pandas and PySpark to analyze pricing data and support refinements to the compan[...]",
+           "text": "Ongoing summer internship on the Data Science Pricing team at QBE's Madison, WI office, applying Pandas and PySpark to refresh the company's pricing models and optimize data pipelines",
            "tags": [
              "pandas",
              "pyspark",
@@ -27,21 +27,18 @@
            ]
          },
          {
-           "text": "Developing predictive risk-modeling solutions and optimized data pipelines with Python, Pandas, and PySpark, reducing processing time and enhancing risk analysis accuracy",
+           "text": "Utilized PySpark in order to pre-process data in an experience report data pipeline resulting in ~80% reduction in data complexity",
            "tags": [
              "python",
-             "pandas",
              "pyspark",
-             "risk-modeling",
-             "data-pipelines",
-             "predictive-modeling"
+             "optimization",
+             "data-pipelines"
            ]
          },
          {
-           "text": "Utilized agentic coding solutions such as DataBricks' Genie Code to promote productivity in data preparation and analysis",
+           "text": "Currently creating and assesing modeling datasets to refresh outdated GLM pricing model in order to enchance risk projection accuracy",
            "tags": [
-             "databricks",
-             "genai",
+             "predictive-modeling",
              "productivity",
              "data-preparation"
            ]
