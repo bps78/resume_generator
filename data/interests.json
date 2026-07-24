@@ -1,0 +1,23 @@
+{
+  "interests": {
+    "Sports": [
+      "Hockey",
+      "Football",
+      "Basketball",
+      "Golf",
+      "Tennis"
+    ],
+    "Fitness": [
+      "Running",
+      "Weightlifting",
+      "Rock Climbing"
+    ],
+    "Music": [
+      "DJing",
+      "Music Discovery"
+    ],
+    "Investing": [
+      "Stock Market Investing"
+    ]
+  }
+}
