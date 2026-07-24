@@ -12,6 +12,7 @@
     "frameworks_libraries": [
       "Pandas",
       "PySpark",
+      "SQLite",
       "Seaborn",
       "Scikit-learn",
       "TensorFlow",
