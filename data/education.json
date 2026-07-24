@@ -1,4 +1,5 @@
-"education": [
+{
+    "education": [
     {
       "institution": "University of Wisconsin – Madison",
       "degree": "B.S., Data Science, Computer Science",
@@ -10,3 +11,4 @@
       ]
     }
   ]
+}
