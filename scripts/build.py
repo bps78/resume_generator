@@ -70,8 +70,20 @@ from pathlib import Path
 import jinja2
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DATA_FILE = REPO_ROOT / "data" / "experience.json"
+DATA_DIR = REPO_ROOT / "data"
 TEMPLATES_DIR = REPO_ROOT / "templates"
+
+
+def load_bank(data_dir: Path) -> dict:
+    """Merge every data/*.json file into a single bank dict. Each file is
+    expected to contain one top-level key (e.g. work_experience, education,
+    skills, personal_info, ...)."""
+    bank = {}
+    for path in sorted(data_dir.glob("*.json")):
+        with open(path, "r", encoding="utf-8") as f:
+            chunk = json.load(f)
+        bank.update(chunk)
+    return bank
 
 # ---------------------------------------------------------------------------
 # LaTeX-safe Jinja2 environment
@@ -208,6 +220,8 @@ def build_context(bank: dict, tailored: dict) -> dict:
         for p, sel in zip(context["projects"], tailored.get("projects", [])):
             bank_entry = index_by_id(bank.get("projects", []))[sel["id"]]
             p["date"] = latex_escape(bank_entry.get("date", ""))
+            techs = sel.get("technologies") or bank_entry.get("tags", [])
+            p["technologies"] = [latex_escape(t) for t in techs]
     if "leadership" in sections:
         leadership_bank = index_by_id(bank.get("leadership", []))
         context["leadership"] = []
@@ -307,7 +321,7 @@ def main():
     tailored_path = Path(sys.argv[2]).resolve()
     job_dir = tailored_path.parent
 
-    bank = load_json(DATA_FILE)
+    bank = load_bank(DATA_DIR)
     tailored = load_json(tailored_path)
 
     if doc_type == "resume":
