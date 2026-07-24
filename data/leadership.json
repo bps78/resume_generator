@@ -1,0 +1,42 @@
+"leadership": [
+    {
+      "id": "sports_analytics_vp",
+      "title": "Vice President",
+      "organization": "UW Sports Analytics Club",
+      "tags": [
+        "leadership",
+        "sports-analytics",
+        "event-organization"
+      ],
+      "bullets": [
+        {
+          "text": "Maintain website, organize weekly meetings, coordinate guest speakers, and lead workshops",
+          "tags": [
+            "leadership",
+            "organization",
+            "public-speaking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delta_chi_treasurer",
+      "title": "Treasurer",
+      "organization": "Delta Chi Fraternity",
+      "tags": [
+        "leadership",
+        "finance",
+        "budgeting"
+      ],
+      "bullets": [
+        {
+          "text": "Organize and draft budget, document spending, and collect membership dues",
+          "tags": [
+            "budgeting",
+            "finance",
+            "organization"
+          ]
+        }
+      ]
+    }
+  ]
