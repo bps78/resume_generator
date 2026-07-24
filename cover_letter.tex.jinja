@@ -1,0 +1,41 @@
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage{parskip}
+
+\pagestyle{empty}
+\definecolor{linkblue}{HTML}{1155CC}
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue}
+
+\begin{document}
+
+\VAR{personal_info.name} \\
+\VAR{personal_info.location} \\
+\VAR{personal_info.phone} \\
+\VAR{personal_info.email}
+
+\vspace{18pt}
+\VAR{date}
+
+\vspace{18pt}
+\BLOCK{ if recipient.hiring_manager }
+\VAR{recipient.hiring_manager} \\
+\BLOCK{ endif }
+\BLOCK{ if recipient.company }
+\VAR{recipient.company}
+\BLOCK{ endif }
+
+\vspace{18pt}
+Dear \BLOCK{ if recipient.hiring_manager }\VAR{recipient.hiring_manager}\BLOCK{ else }Hiring Team\BLOCK{ endif },
+
+\BLOCK{ for paragraph in body_paragraphs }
+\VAR{paragraph}
+
+\BLOCK{ endfor }
+Sincerely, \\
+\VAR{personal_info.name}
+
+\end{document}
