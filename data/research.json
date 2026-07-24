@@ -1,0 +1,77 @@
+ "research": [
+    {
+      "id": "babar_mobile_phone_bans",
+      "title": "Research Project Assistant",
+      "organization": "Prof. Yash Babar, UW–Madison",
+      "start_date": "2025-08",
+      "end_date": "2025-12",
+      "tags": [
+        "python",
+        "sql",
+        "data-wrangling",
+        "education-research"
+      ],
+      "bullets": [
+        {
+          "text": "Processing and preparing data for Prof. Babar's research on impacts of mobile phone bans in K-12 schools",
+          "tags": [
+            "data-preparation",
+            "education-research"
+          ]
+        },
+        {
+          "text": "Mapped datasets in Python in order to combine data from multiple sources to allow for better informed insights",
+          "tags": [
+            "python",
+            "data-integration"
+          ]
+        },
+        {
+          "text": "Processed data in SQL to ensure proper formatting and prevent errors during analysis",
+          "tags": [
+            "sql",
+            "data-cleaning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oscar_sort_waste_analysis",
+      "title": "Oscar Sort Waste Sorting Data Analysis",
+      "organization": "UW-Madison Office of Sustainability",
+      "start_date": "2025-06",
+      "end_date": "2025-08",
+      "tags": [
+        "statistics",
+        "sustainability",
+        "computer-vision-data",
+        "reporting"
+      ],
+      "bullets": [
+        {
+          "text": "Analyzed large-scale waste disposal dataset from computer vision–enabled recycling bins to assess sorting accuracy trends and contamination causes with mentorship from Professor Yash Babar",
+          "tags": [
+            "data-analysis",
+            "computer-vision-data",
+            "sustainability"
+          ]
+        },
+        {
+          "text": "Applied statistical methods (correlation analysis, weighted regression, association rule mining) to identify priority waste items and create actionable insights",
+          "tags": [
+            "statistics",
+            "regression",
+            "association-rule-mining"
+          ]
+        },
+        {
+          "text": "Created visualizations and a final report for the UW–Madison Office of Sustainability to summarize my findings and inform sustainability strategy",
+          "tags": [
+            "data-visualization",
+            "reporting",
+            "stakeholder-communication"
+          ]
+        }
+      ]
+    }
+  ]
