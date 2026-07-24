@@ -1,4 +1,5 @@
- "research": [
+{
+"research": [
     {
       "id": "babar_mobile_phone_bans",
       "title": "Research Project Assistant",
@@ -75,3 +76,4 @@
       ]
     }
   ]
+}
