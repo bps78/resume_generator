@@ -182,10 +182,10 @@ def merge_experience_section(section_name: str, bank: dict, tailored: dict,
             continue
         merged = {
             "title": bank_entry.get("title"),
-            "company": bank_entry.get("company") or bank_entry.get("organization"),
-            "organization": bank_entry.get("organization"),
-            "location": bank_entry.get("location"),
-            "date": bank_entry.get("date"),
+            "company": bank_entry.get("company") or bank_entry.get("organization") or "",
+            "organization": bank_entry.get("organization") or "",
+            "location": bank_entry.get("location") or "",
+            "date": bank_entry.get("date") or "",
             "bullets": select_bullets(bank_entry, sel),
         }
         if date_range:
