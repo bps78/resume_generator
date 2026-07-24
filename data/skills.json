@@ -1,0 +1,27 @@
+"skills": {
+    "programming_languages": [
+      "Python",
+      "SQL",
+      "Java",
+      "JavaScript",
+      "R",
+      "Bash",
+      "HTML"
+    ],
+    "frameworks_libraries": [
+      "Pandas",
+      "PySpark",
+      "Seaborn",
+      "Scikit-learn",
+      "TensorFlow",
+      "Ultralytics YOLO",
+      "Matplotlib"
+    ],
+    "tools_technologies": [
+      "Power BI",
+      "Tableau",
+      "DataBricks",
+      "Microsoft Excel",
+      "Git"
+    ]
+  }
