@@ -1,0 +1,60 @@
+"projects": [
+    {
+      "id": "march_madness_model",
+      "title": "March Madness Predictive Model",
+      "organization": "UW-Madison Sports Analytics Club",
+      "date": "2026-03",
+      "tags": [
+        "machine-learning",
+        "xgboost",
+        "sports-analytics",
+        "predictive-modeling"
+      ],
+      "bullets": [
+        {
+          "text": "Analyzed a large set of statistical data and utilized extreme gradient boosting to predict outcomes of games during the 2026 men's college basketball tournament and gather insights on what factors make for a champion-quality team",
+          "tags": [
+            "xgboost",
+            "sports-analytics",
+            "predictive-modeling"
+          ]
+        },
+        {
+          "text": "Predicted 78% of matchups in the tournament correctly with a brier score of 1.48",
+          "tags": [
+            "results",
+            "model-performance"
+          ]
+        },
+        {
+          "text": "Finished 1st in the competition's bracket group and 2nd based on brier score",
+          "tags": [
+            "results",
+            "competition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "autochef",
+      "title": "AutoChef",
+      "date": "2025-08",
+      "tags": [
+        "computer-vision",
+        "yolov8",
+        "streamlit",
+        "api-integration"
+      ],
+      "bullets": [
+        {
+          "text": "Trained a custom YOLOv8 object detection model to identify refrigerator contents and deployed an end-to-end Streamlit application that recommends recipes using the Spoonacular API",
+          "tags": [
+            "yolov8",
+            "object-detection",
+            "streamlit",
+            "api-integration"
+          ]
+        }
+      ]
+    }
+  ]
