@@ -121,6 +121,22 @@
     \small{\VAR{summary}}
 \BLOCK{ endif }
 
+%-----------EXPERIENCE-----------
+\BLOCK{ if work_experience is defined and work_experience }
+\section{Work Experience}
+  \resumeSubHeadingListStart
+  \BLOCK{ for job in work_experience }
+    \resumeSubheading
+      {\VAR{job.title}}{\VAR{job.date_range}}
+      {\VAR{job.company}}{\VAR{job.location}}
+      \resumeItemListStart
+      \BLOCK{ for bullet in job.bullets }
+        \resumeItem{\VAR{bullet}}
+      \BLOCK{ endfor }
+      \resumeItemListEnd
+  \BLOCK{ endfor }
+  \resumeSubHeadingListEnd
+\BLOCK{ endif }
 
 %-----------EDUCATION-----------
 \BLOCK{ if education is defined and education }
@@ -141,24 +157,22 @@
   \resumeSubHeadingListEnd
 \BLOCK{ endif }
 
-
-%-----------EXPERIENCE-----------
-\BLOCK{ if work_experience is defined and work_experience }
-\section{Work Experience}
+%-----------RESEARCH-----------
+\BLOCK{ if research is defined and research }
+\section{Research}
   \resumeSubHeadingListStart
-  \BLOCK{ for job in work_experience }
+  \BLOCK{ for r in research }
     \resumeSubheading
-      {\VAR{job.title}}{\VAR{job.date_range}}
-      {\VAR{job.company}}{\VAR{job.location}}
+      {\VAR{r.title}}{\VAR{r.date_range}}
+      {\VAR{r.company}}{\VAR{r.location}}
       \resumeItemListStart
-      \BLOCK{ for bullet in job.bullets }
+      \BLOCK{ for bullet in r.bullets }
         \resumeItem{\VAR{bullet}}
       \BLOCK{ endfor }
       \resumeItemListEnd
   \BLOCK{ endfor }
   \resumeSubHeadingListEnd
 \BLOCK{ endif }
-
 
 %-----------LEADERSHIP-----------
 \BLOCK{ if leadership is defined and leadership }
@@ -170,24 +184,6 @@
       {\VAR{l.organization}}{}
       \resumeItemListStart
       \BLOCK{ for bullet in l.bullets }
-        \resumeItem{\VAR{bullet}}
-      \BLOCK{ endfor }
-      \resumeItemListEnd
-  \BLOCK{ endfor }
-  \resumeSubHeadingListEnd
-\BLOCK{ endif }
-
-
-%-----------RESEARCH-----------
-\BLOCK{ if research is defined and research }
-\section{Research}
-  \resumeSubHeadingListStart
-  \BLOCK{ for r in research }
-    \resumeSubheading
-      {\VAR{r.title}}{\VAR{r.date_range}}
-      {\VAR{r.company}}{\VAR{r.location}}
-      \resumeItemListStart
-      \BLOCK{ for bullet in r.bullets }
         \resumeItem{\VAR{bullet}}
       \BLOCK{ endfor }
       \resumeItemListEnd
