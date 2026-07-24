@@ -4,8 +4,8 @@
       "id": "babar_mobile_phone_bans",
       "title": "Research Project Assistant",
       "organization": "Prof. Yash Babar, UW–Madison",
-      "start_date": "2025-08",
-      "end_date": "2025-12",
+      "start_date": "August 2025",
+      "end_date": "December 2025",
       "tags": [
         "python",
         "sql",
@@ -40,8 +40,8 @@
       "id": "oscar_sort_waste_analysis",
       "title": "Oscar Sort Waste Sorting Data Analysis",
       "organization": "UW-Madison Office of Sustainability",
-      "start_date": "2025-06",
-      "end_date": "2025-08",
+      "start_date": "June 2025",
+      "end_date": "August 2025",
       "tags": [
         "statistics",
         "sustainability",
@@ -50,7 +50,7 @@
       ],
       "bullets": [
         {
-          "text": "Analyzed large-scale waste disposal dataset from computer vision–enabled recycling bins to assess sorting accuracy trends and contamination causes with mentorship from Professor Yash Babar",
+          "text": "Analyzed large-scale waste disposal dataset from computer vision–enabled recycling bins to assess sorting accuracy trends and contamination causes with mentorship from Professor Ankur Desai",
           "tags": [
             "data-analysis",
             "computer-vision-data",
